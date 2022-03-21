@@ -1,0 +1,117 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* start style for header */
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39e8;
+}
+.conteiner{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo-img{
+    margin-right: 40px;
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* end style for header */
+
+/* start style for banner */
+.banner-section{
+    background: url(./img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.banner-title, .banner-discription{
+    text-align: center;
+    color: white
+    
+}
+.banner-title{
+    font-size: 48px;
+}
+
+
+
+/* end style for banner */
+
+/* start style for card */
+.cards{
+    margin: 20px;
+    
+}
+
+.cards-section{
+    padding: 10px 0;
+}
+.cards-title, .cards-discription{
+    text-align: center;
+    color: #151c39;
+}
+.cards{
+    width: 25%;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+
+
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+
+}
+.card-button{
+    background: #151c39;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-link{
+    color: white;
+    text-decoration: none;
+}
+
+/* end style for card */
+
+.footer{
+    background: url(./img/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0;
+}
+.copyright{
+    color: white;
+}
+.footer-logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.footer-search-input{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 3;
+    margin-right: 20px;
+}
+.footer-search-button{
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
